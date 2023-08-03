@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Material icon -->
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+            rel="stylesheet"
+        />
+
+        <!-- CSS ------------------------------->
+        <link rel="stylesheet" href="dash1.css" />
+        <link rel="stylesheet" href="dash1-responsive.css" />
+        <title>DashboardClients</title>
+    </head>
+
+    <body>
+        <div class="dashboard-container">
+            <!-- Sidebar -->
+            <aside class="main-sidebar">
+                <header class="aside-header">
+                    
+                    <div class="close" id="closeSidebar">
+                        <span class="material-icons-sharp"> close </span>
+                    </div>
+                </header>
+ <div class="sidebar" id="sidebar">
+                    <ul class="list-items">
+                        <li class="item">
+                             <a href="clienthome.html">
+                               <span class="material-icons-sharp">
+                                    logout
+                                </span>
+                                <span>Back</span>
+                            </a>
+                        </li>
+                       
+                        
+                       
+                       
+                        <li class="item">
+                            <a href="#" class="">
+                                <span class="material-icons-sharp">
+                                    
+                                </span>
+                                <span></span>
+                                <span class="message-count"></span>
+                            </a>
+                        </li>
+                        
+                        
+                        <li class="item">
+                            <a href="#">
+                                <span class="material-icons-sharp">
+                                    
+                                </span>
+                                <span></span>
+                            </a>
+                        </li>
+                       
+                        <li class="item">
+                            <a href="#">
+                                
+                                <span></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <!-- Main -->
+            <main class="main-container">
+                <h1 class="main-title"></h1>
+
+                
+
+                <!-- RECENT ORDERS ----------------------table-------------->
+                <section class="recent-orders">
+                    <div class="ro-title">
+                        <h2 class="recent-orders-title">Historical</h2>
+                        <a href="#" class="show-all"></a>
+                    </div>
+                    <table>
+                       <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>User name</th>
+                                
+                                <th>Date</th>
+                                <th>location</th>
+                                <th></th>
+                                <th></th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>12</td>
+                               <td>Hend Hamdi</td>
+                               <td>12/2/2023</td>
+                               <td>Tunis</td>  
+                                 <div class="btn-group">
+                                <td>  
+                                <a href="facture.html">  <button class="accept-btn">View invoice</button></td>
+                                
+                            </div>   
+                                                   </tr>
+                          <tr>
+                                <td>12</td>
+                               <td>Hend Hamdi</td>
+                               <td>12/2/2023</td>
+                               <td>Tunis</td>  
+                            <div class="btn-group">
+                          <td> <a href="facture.html">   <button class="accept-btn">View invoice</button></td>
+
+                                
+                            </div>   
+                                                   </tr>
+                          <tr>
+                                <td>12</td>
+                               <td>Hend Hamdi</td>
+                               <td>12/2/2023</td>
+                               <td>Tunis</td>  
+                            <div class="btn-group">
+                                                               <td> <a href="facture.html">   <button class="accept-btn">View invoice</button></td>
+
+                            </div>   
+                                                   </tr>
+                           <tr>
+                                <td>200</td>
+                               <td>Hend Hamdi</td>
+                               <td>12/2/2023</td>
+                               <td>Tunis</td>  
+                            <div class="btn-group">
+                                                                <td>   <a href="facture.html"> <button class="accept-btn">View invoice</button></td>
+
+                            </div>   
+                                                   </tr>
+                          <tr>
+                                <td>12</td>
+                               <td>Hend Hamdi</td>
+                               <td>12/2/2023</td>
+                               <td>Tunis</td>  
+                            <div class="btn-group">
+                                                                <td>   <a href="facture.html"> <button class="accept-btn">View invoice</button></td>
+
+                            </div>   
+                                                   </tr>
+                           <tr>
+                                <td>12</td>
+                               <td>Hend Hamdi</td>
+                               <td>12/2/2023</td>
+                               <td>Tunis</td>  
+                            <div class="btn-group">
+                                                               <td>  <a href="facture.html">  <button class="accept-btn">View invoice</button></td>
+
+                            </div>   
+                                                   </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </main>
+
+            <!-- Sidebar droite -->
+            <aside class="extrabar">
+                <header class="header-right">
+                    <button class="toggle-menu-btn" id="openSidebar">
+                        <span class="material-icons-sharp"> menu </span>
+                    </button>
+
+                    <div class="toggle-theme">
+                        <span class="material-icons-sharp active">
+                            tungsten
+                        </span>
+                        <span class="material-icons-sharp"> dark_mode </span>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-info">
+                            <p>hi, <strong>Coding</strong></p>
+                            <small>Profil</small>
+                        </div>
+                        <div class="profile-image">
+                            <img src="images/team-4.jpg" alt="" width="100%" />
+                        </div>
+                    </div>
+                </header>
+
+                
+
+                <!-- Stat ------------------------------------------------------>
+            
+            </aside>
+        </div>
+
+        <script src="dash1.js"></script>
+    </body>
+</html>

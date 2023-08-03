@@ -1,0 +1,30 @@
+
+  
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .accept-btn, .reject-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accept-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+  }
+  
+  .reject-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+  }
+  
+  .accept-btn:hover, .reject-btn:hover {
+    opacity: 0.8;
+  }
