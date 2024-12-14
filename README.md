@@ -1,17 +1,15 @@
-# Contribution à une Plateforme de Communication entre Experts et Assurés
+# Contribution to a Communication Platform between Experts and Insured Parties
 
 ## Description
-Dans le cadre de mon stage de perfectionnement,
+During my advanced training internship, I contributed to the design and development of specific user interfaces for an online platform. 
 
-j'ai contribué à la conception et au développement de certaines interfaces utilisateur d’une plateforme en ligne.
+This platform facilitates communication between experts and insured parties while integrating an administrator dashboard.
 
-Cette plateforme facilite la communication entre les experts et les assurés, tout en intégrant un tableau de bord pour l’administration.
+## Responsibilities
+- Designing and developing user-friendly interfaces.
+- Participating in the integration of the administrator dashboard.
+- Collaborating with the development team to enhance the user experience.
 
-## Responsabilités
-- Conception et développement d’interfaces utilisateur conviviales.
-- Participation à l’intégration du tableau de bord administrateur.
-- Collaboration avec l’équipe de développement pour améliorer l'expérience utilisateur.
-
-## Technologies Utilisées
-- **Frontend** : HTML, CSS, JavaScript.
-- **Backend** : Firebase pour la gestion des données et des utilisateurs.
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript.
+- **Backend**: Firebase for user and data management.
